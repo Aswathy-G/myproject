@@ -1667,6 +1667,8 @@ footer h6 {
     width: 14px;
   }
 }
+
+
 @media all and (max-width: 480px) {
   section#home section.wrapper header section.container div.middle ul li {
     margin-right: 8px;
