@@ -1,0 +1,1936 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  background: transparent;
+  font-weight: normal;
+  text-decoration: none;
+  outline: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+body {
+  font-family: "Gordita", Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  color: #000;
+  overflow-x: hidden;
+  min-width: 320px;
+  font-weight: 500;
+}
+
+input,
+textarea,
+select {
+  font-family: "Gordita", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+a {
+  color: #000;
+}
+
+.thumb {
+  display: block;
+}
+
+.thumb img {
+  display: block;
+  width: 100%;
+}
+
+a:hover,
+.submit:hover {
+  filter: alpha(opacity=85);
+  -moz-opacity: 0.85;
+  -khtml-opacity: 0.85;
+  opacity: 0.85;
+}
+
+p {
+  line-height: 1.6em;
+  font-size: 16px;
+  font-family: "Gordita", Arial;
+  font-weight: 500;
+  color: #000;
+}
+
+.hidden {
+  display: none;
+}
+
+br.clear {
+  clear: both;
+  line-height: 0;
+}
+
+.wrapper {
+  width: 85%;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.flex-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+@font-face {
+  font-family: "Gordita";
+  src: url("../fonts/Gordita-Bold.woff") format("woff2"),
+    url("../fonts/Gordita-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gordita";
+  src: url("../fonts/Gordita-Medium.woff2") format("woff2"),
+    url("../fonts/Gordita-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gordita";
+  src: url("../fonts/Gordita-Regular.woff2") format("woff2"),
+    url("../fonts/Gordita-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gordita";
+  src: url("../fonts/Gordita-Light.woff2") format("woff2"),
+    url("../fonts/Gordita-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --Color1: #4895a5;
+  --Color2: #ea542f;
+  --Color3: #747474;
+}
+#home {
+  background: url(../images/background-image.png);
+  background-repeat: no-repeat;
+}
+#home header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+#home header h1 {
+}
+#home header h1 a {
+}
+#home header .left p {
+  width: 100%;
+}
+
+#home header nav {
+}
+
+#home header nav ul {
+  display: flex;
+
+  align-items: center;
+}
+
+#home header nav ul li {
+  margin-right: 25px;
+}
+
+#home header nav ul li :last-child {
+  margin-right: 0;
+}
+
+#home header nav ul li a.box {
+  display: block;
+  width: 30px;
+}
+#home header nav ul li a img {
+  display: block;
+  width: 100%;
+}
+
+#home section.spotlight {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+#home section.spotlight div.left {
+  width: 50%;
+}
+#home section.spotlight div.left div.container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#home section.spotlight div.left div.container h4 {
+  margin-right: 10px;
+
+  font-size: 26px;
+
+  font-weight: 600;
+
+  color: #4995a5;
+}
+#home section.spotlight div.left div.container img {
+  margin-right: 10px;
+
+  font-size: 26px;
+
+  font-weight: 600;
+
+  color: #4995a5;
+}
+
+#home section.spotlight div.left h1 {
+  font-size: 82px;
+  font-weight: bold;
+  width: 97%;
+  margin-bottom: 50px;
+}
+
+#home section.spotlight div.left h1 span {
+  color: cadetblue;
+
+  font-weight: 550;
+}
+
+#home section.spotlight div.left p {
+  width: 92%;
+  font-size: 20px;
+  line-height: 1.5rem;
+  margin-bottom: 25px;
+  font-weight: 600;
+  color: #3f3f3f;
+}
+
+#home section.spotlight div.left a.button {
+  font-weight: 500;
+  font-size: 22px;
+  background-color: var(--Color2);
+  padding: 18px 28px;
+  border-radius: 4px;
+  color: #fbd6cd;
+  display: inline-block;
+  margin: 35px 0;
+}
+#home section.spotlight div.left div.content {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+#home section.spotlight div.left div.content h4 {
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 7px;
+  display: flex;
+}
+#home section.spotlight div.left div.content h6 {
+  font-size: 14px;
+  font-weight: 500;
+  width: 84%;
+  color: #747474;
+}
+#home section.spotlight div.right {
+  width: 45%;
+}
+
+#home section.spotlight div.right .firstimg {
+  display: inline-block;
+}
+#home section.spotlight div.right .firstimg img {
+  width: 100%;
+  display: block;
+}
+section#about section.wrapper section.container div.item {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 0;
+}
+
+section#about section.wrapper section.container div.item.two {
+  flex-direction: row-reverse;
+}
+
+section#about section.wrapper section.container div.item div.left {
+  width: 48%;
+}
+
+section#about section.wrapper section.container div.item.one div.left {
+  display: flex;
+  justify-content: space-evenly;
+}
+section#about
+  section.wrapper
+  section.container
+  div.item
+  div.left
+  div.imgcontainer {
+  display: inline-block;
+  width: 55%;
+  margin-right: 40px;
+}
+
+section#about section.wrapper section.container div.item div.left img {
+  display: block;
+  width: 100%;
+  border-radius: 12px;
+}
+
+section#about section.wrapper section.container div.item div.left div.imgtwo {
+  display: inline-block;
+  width: 38%;
+}
+section#about
+  section.wrapper
+  section.container
+  div.item
+  div.left
+  div.imgtwo
+  img.one {
+  margin-bottom: 40px;
+}
+
+section#about section.wrapper section.container div.item div.right {
+  width: 50%;
+  padding: 10px 50px;
+}
+section#about section.wrapper section.container div.item div.right h1 {
+  font-size: 62px;
+  font-weight: 500;
+  margin-bottom: 30px;
+  margin-top: 40px;
+}
+
+section#about section.wrapper section.container div.item div.right p {
+  font-size: 20px;
+  width: 79%;
+  margin-bottom: 50px;
+  color: #3f3f3f;
+}
+
+section#about section.wrapper section.container div.item div.right a.button {
+  display: inline-block;
+  background: var(--Color2);
+  padding: 18px 19px;
+  font-size: 22px;
+  font-weight: 500;
+  border-radius: 4px;
+  color: #fbd6cd;
+}
+section#about section.wrapper section.container div.item.three div.right {
+  padding: 0;
+  padding-left: 160px;
+}
+
+section#about section.wrapper section.container div.item.three div.right h1 {
+  margin-top: 0;
+}
+
+section#about section.wrapper section.container div.item.three div.right p {
+  width: 94%;
+  margin-bottom: 35px;
+}
+
+#service section.container h1 {
+  font-size: 70px;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+#service {
+  background: #fafafa;
+}
+
+#service section.container {
+  text-align: center;
+  padding: 100px 0;
+}
+
+#service section.container div.blueimg {
+  width: 90px;
+  margin: 0 auto;
+}
+
+#service section.container div.blueimg img {
+  display: block;
+  width: 100%;
+}
+#service section.container h1 h6 {
+  font-size: 21px;
+  font-weight: 500;
+  width: 75%;
+  margin: 0 auto;
+}
+#service section.container div.boxes {
+  margin-top: 50px;
+}
+#service section.container div.boxes ul {
+  display: flex;
+  justify-content: space-between;
+}
+#service section.container div.boxes ul li {
+  padding: 25px;
+  width: 22%;
+  background-color: #fff;
+  border-radius: 7px;
+}
+
+#service section.container div.boxes ul li h4 {
+  font-size: 27px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+#service section.container div.boxes ul li p {
+  font-size: 17px;
+  color: #adadad;
+}
+#service section.container div.boxes ul li span {
+  display: inline-block;
+  width: 25%;
+}
+#service section.container div.boxes ul li span img {
+  width: 100%;
+  display: block;
+}
+#service section.container a.button {
+  display: inline-block;
+  background: var(--Color2);
+  padding: 18px 19px;
+  font-size: 22px;
+  font-weight: 500;
+  border-radius: 4px;
+  color: #fbd6cd;
+  margin-top: 50px;
+}
+
+#partners {
+  padding: 180px 0;
+}
+
+#partners section.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#partners section.container div.left {
+  width: 50%;
+}
+
+#partners section.container div.left h1 {
+  font-size: 60px;
+  font-weight: 500;
+  width: 55%;
+  margin-bottom: 40px;
+}
+
+#partners section.container div.left h4 {
+  font-size: 22px;
+  font-weight: 500;
+  width: 80%;
+  color: #747474;
+  margin-bottom: 25px;
+}
+
+#partners section.container div.left a.button {
+  display: inline-block;
+  background: var(--Color2);
+  padding: 17px 18px;
+  font-size: 22px;
+  font-weight: 500;
+  border-radius: 4px;
+  color: #fbd6cd;
+  margin-top: 30px;
+}
+
+#partners section.container div.right {
+  width: 50%;
+}
+
+#partners section.container div.right div.items {
+  width: 100%;
+}
+
+#partners section.container div.right div.item {
+  display: flex;
+  cursor: pointer;
+}
+
+#partners section.container div.right div.item.one {
+  width: 170px;
+  margin: 0 auto;
+}
+
+#partners section.container div.right div.item.two {
+  justify-content: space-around;
+  width: 170px;
+  margin: 30px auto;
+}
+
+#partners section.container div.right div.item.two img {
+  margin-right: 30px;
+}
+
+#partners section.container div.right div.item.two img:last-child {
+  margin-right: 0;
+}
+
+#partners section.container div.right div.item.three img {
+  margin-right: 30px;
+}
+
+#partners section.container div.right div.item.three img:last-child {
+  margin-right: 0;
+}
+#partners section.container div.right div.item.three {
+  width: 170px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+
+#partners section.container div.right div.item img {
+  display: block;
+  width: 100%;
+  box-shadow: 7px 11px 10px -5px rgba(0, 0, 0, 0.15);
+}
+#testimonials section.container {
+  padding: 11px;
+}
+
+#testimonials section.container h1 {
+  font-size: 60px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#testimonials section.container h4 {
+  font-size: 24px;
+  font-weight: 500;
+  width: 71%;
+  margin: 0 auto;
+  text-align: center;
+  color: #747474;
+}
+#testimonials section.container div.box {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  padding: 15px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+#testimonials section.container div.box div.left {
+  width: 30%;
+}
+#testimonials section.container div.dotes {
+  padding: 30px;
+  text-align: center;
+}
+#testimonials section.container div.dotes span.round {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #d9d9d9;
+  display: inline-block;
+  margin-right: 10px;
+  cursor: pointer;
+}
+#testimonials section.container div.dotes span.round :hover {
+  background: #569fa8;
+}
+
+#testimonials section.container div.box div.left div.elizabath {
+  width: 95%;
+}
+
+#testimonials section.container div.box div.left div.elizabath img {
+  display: block;
+  width: 100%;
+  border-radius: 8px;
+}
+#testimonials section.container div.box div.right {
+  width: 70%;
+}
+
+#testimonials section.container div.box div.right small {
+  display: inline-block;
+  width: 30px;
+}
+
+#testimonials section.container div.box div.right small.r {
+  margin-right: 40px;
+}
+
+#testimonials section.container div.box div.right small.l {
+  margin-left: 40px;
+}
+
+#testimonials section.container div.box div.right h3 small img {
+  display: block;
+  width: 100%;
+}
+
+#testimonials section.container div.box div.right h3 {
+  width: 90%;
+  font-size: 22px;
+  font-weight: 500;
+  padding: 0 18px;
+  margin-bottom: 35px;
+  color: #747474;
+}
+
+#testimonials section.container div.box div.right div.elisa {
+  padding: 0 16px;
+}
+
+#testimonials section.container div.box div.right div.elisa div.imgcontainer {
+  display: flex;
+  align-items: center;
+}
+
+#testimonials
+  section.container
+  div.box
+  div.right
+  div.elisa
+  div.imgcontainer
+  span {
+  display: inline-block;
+  width: 80px;
+  margin-right: 13px;
+}
+
+#testimonials
+  section.container
+  div.box
+  div.right
+  div.elisa
+  div.imgcontainer
+  span
+  img {
+  display: block;
+  width: 100%;
+  border-radius: 8px;
+}
+
+#testimonials section.container div.dotes {
+  padding: 30px;
+  text-align: center;
+}
+#testimonials
+  section.container
+  div.box
+  div.right
+  div.elisa
+  div.imgcontainer
+  div.text
+  h6 {
+  font-size: 18px;
+  font-weight: bold;
+}
+#testimonials
+  section.container
+  div.box
+  div.right
+  div.elisa
+  div.imgcontainer
+  div.text
+  p {
+  font-size: 12px;
+  color: var(--Color1);
+}
+#testimonials section.container div.dotes span.round {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #d9d9d9;
+  display: inline-block;
+  margin-right: 10px;
+  cursor: pointer;
+}
+#testimonials section.container div.dotes span.round:last-child {
+  margin-right: 0;
+}
+
+#testimonials section.container div.dotes span.round:first-child {
+  background: #569fa8;
+}
+
+#testimonials section.container div.dotes span.round:hover {
+  background: #569fa8;
+}
+
+#newsletter {
+  background-color: #fafafa;
+  padding: 5%;
+}
+
+#newsletter div.catImg {
+  width: 6%;
+  margin: 0 auto;
+}
+
+#newsletter div.catImg img {
+  display: block;
+  width: 100%;
+}
+
+#newsletter h1 {
+  font-size: 70px;
+  font-weight: 500;
+  text-align: center;
+  padding: 10px 0;
+}
+
+#newsletter h4 {
+  font-size: 22px;
+  font-weight: 500;
+  margin: 0 auto;
+  text-align: center;
+  width: 61%;
+  padding: 10px 0;
+  color: #959595;
+}
+
+#newsletter input[type="email"] {
+  background-color: #fff;
+  color: #cccccc;
+  font-size: 18px;
+  height: 68px;
+  padding: 8px 16px;
+  width: 30%;
+}
+#newsletter input[type="button"] {
+  background-color: #e6552e;
+  color: #e5e5e5;
+  padding: 18px 48px;
+  font-size: 22px;
+  border-radius: 0px 6px 6px 0px;
+  cursor: pointer;
+}
+#newsletter form {
+  text-align: center;
+  margin-top: 14px;
+}
+
+#contact {
+  padding: 8%;
+}
+
+#contact h1 {
+  font-size: 60px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+#contact h4 {
+  text-align: center;
+  width: 65%;
+  margin: 0 auto;
+  font-size: 22px;
+  font-weight: 500;
+  padding-bottom: 50px;
+  color: var(--Color3);
+}
+#contact form {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 213px;
+  width: 84%;
+  margin: -1px auto;
+}
+
+#contact form input {
+  border: 1px solid #d2d2d2;
+  width: 48%;
+  border-radius: 6px;
+  height: 65px;
+  font-size: 18px;
+  padding: 10px;
+}
+#contact form textarea {
+  border: 1px solid #d2d2d2;
+  width: 48%;
+  border-radius: 6px;
+  height: 139px;
+  font-size: 18px;
+  padding: 10px;
+  font-weight: 500;
+}
+
+#contact form input[type="submit"] {
+  background-color: #e6552e;
+  color: #e5e5e5;
+  padding: 12px 18px;
+  font-size: 22px;
+  border-radius: 4px;
+  display: inline-block;
+  border: none;
+}
+
+#shopimg div.image {
+  width: 32.2%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+#shopimg div.image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  background: #f3f3f3;
+  padding: 3%;
+}
+
+/*<!-- section Footer-end --> */
+footer section.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer section.container div.left h1 {
+  font-size: 31px;
+}
+
+footer section.container div.left h1 a {
+  font-weight: 500;
+}
+footer section.container div.middle ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer section.container div.middle ul li {
+  margin-right: 40px;
+}
+
+footer section.container div.middle ul li:last-child {
+  margin-right: 0;
+}
+
+footer section.container div.middle ul li a {
+  font-size: 20px;
+  font-weight: 500;
+}
+footer section.container div.right ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer section.container div.right ul li {
+  margin-right: 10px;
+}
+
+footer section.container div.right ul li:last-child {
+  margin-right: 0;
+}
+
+footer section.container div.right ul li a span {
+  display: inline-block;
+  width: 35px;
+}
+footer section.container div.right ul li a span img {
+  display: block;
+  width: 100%;
+}
+footer hr {
+  border-bottom: 1px solid #cccccc;
+  margin: 34px;
+}
+footer h6 {
+  font-size: 16px;
+  text-align: center;
+  color: #ababab;
+}
+
+/* Responsive */
+
+@media all and (max-width: 1440px) {
+  section#home section.wrapper section.spotlight div.left h1 {
+    width: 97%;
+  }
+  section#home section.wrapper section.spotlight div.left p {
+    width: 82%;
+  }
+  section#about section.wrapper section.container div.item div.right p {
+    width: 95%;
+    font-size: 18px;
+  }
+  section#about section.wrapper section.container div.item div.right h1 {
+    font-size: 59px;
+  }
+  section#about section.wrapper section.container div.item.three div.right p {
+    width: 95%;
+    font-size: 16px;
+  }
+  #service section.container h6 {
+    width: 77%;
+  }
+  #service section.container div.boxes ul li h4 {
+    font-size: 23px;
+  }
+  #service section.container div.boxes ul li p {
+    font-size: 14px;
+  }
+  #service section.container a.button {
+    padding: 14px 16px;
+  }
+  #partners section.container div.left h1 {
+    width: 64%;
+  }
+  #partners section.container div.left h4 {
+    width: 94%;
+    margin-bottom: 2px;
+  }
+  #partners section.container div.left a.button {
+    padding: 12px 18px;
+    margin-top: 25px;
+  }
+  #testimonials section.container h4 {
+    width: 85%;
+  }
+  #testimonials section.container div.box div.right h3 {
+    width: 98%;
+    font-size: 20px;
+    margin-bottom: 12px;
+  }
+  #newsletter h4 {
+    width: 63%;
+  }
+  #contact h4 {
+    width: 77%;
+  }
+}
+@media all and (max-width: 1280px) {
+  #contact h4 {
+    width: 94%;
+  }
+  #newsletter h1 {
+    font-size: 55px;
+  }
+  #newsletter h4 {
+    width: 88%;
+  }
+  #testimonials section.container div.box div.right h3 {
+    width: 99%;
+    font-size: 16px;
+  }
+  #testimonials
+    section.container
+    div.box
+    div.right
+    div.elisa
+    div.imgcontainer
+    span {
+    width: 10%;
+    margin-right: 20px;
+  }
+  #testimonials section.container h4 {
+    font-size: 19px;
+  }
+  #testimonials section.container h1 {
+    font-size: 50px;
+  }
+  #partners section.container div.left h1 {
+    font-size: 45px;
+    margin-bottom: 25px;
+  }
+  #partners section.container div.left h4 {
+    font-size: 16px;
+  }
+  #partners section.container div.right div.item.one {
+    width: 120px;
+  }
+  #partners section.container div.right div.item.two {
+    margin: 40px auto;
+    width: 120px;
+  }
+  #partners section.container div.right div.item.three {
+    width: 140px;
+  }
+  #partners {
+    padding: 160px 0;
+  }
+  #service section.container div.boxes ul li span {
+    width: 40px;
+  }
+  #service section.container div.boxes ul li h4 {
+    font-size: 14px;
+  }
+  #service section.container {
+    padding: 50px 0;
+  }
+  #service section.container a.button {
+    font-size: 16px;
+  }
+  #service section.container div.boxes ul li p {
+    font-size: 11px;
+  }
+  #service section.container h6 {
+    font-size: 18px;
+  }
+  #service section.container h1 {
+    font-size: 50px;
+    margin-bottom: 26px;
+  }
+  #service section.container div.catimg {
+    width: 60px;
+  }
+  section#about section.wrapper section.container div.item.three div.right {
+    padding-left: 30px;
+  }
+  section#about section.wrapper section.container div.item div.right a.button {
+    padding: 12px 18px;
+    font-size: 18px;
+  }
+  section#about section.wrapper section.container div.item {
+    padding: 55px 0;
+  }
+  section#about section.wrapper section.container div.item div.right h1 {
+    font-size: 41px;
+    margin-bottom: 10px;
+  }
+  section#about section.wrapper section.container div.item div.right {
+    padding: 0 16px;
+  }
+  section#home section.wrapper section.spotlight div.left div.content ul li h6 {
+    font-size: 12px;
+    width: 91%;
+  }
+  section#home section.wrapper section.spotlight div.left a.button {
+    font-size: 16px;
+    padding: 12px 28px;
+  }
+  section#home section.wrapper section.spotlight div.left p {
+    font-size: 16px;
+    margin-top: 20px;
+    line-height: 1.4rem;
+  }
+  section#home section.wrapper section.spotlight div.left h1 {
+    font-size: 64px;
+  }
+  section#home
+    section.wrapper
+    section.spotlight
+    div.left
+    div.container
+    div.catimg {
+    width: 48px;
+  }
+  section#home section.wrapper header section.container div.left h1 a {
+    font-size: 28px;
+  }
+  section#home section.wrapper header section.container div.middle ul li {
+    margin-right: 28px;
+  }
+  section#home section.wrapper header section.container div.middle ul li a {
+    font-size: 18px;
+  }
+  section#home section.wrapper header section.container div.right ul li a span {
+    display: inline-block;
+    width: 38px;
+  }
+}
+@media all and (max-width: 1050px) {
+  section#home section.wrapper section.spotlight div.left p {
+    width: 86%;
+  }
+  section#home section.wrapper section.spotlight div.left div.content ul li h6 {
+    font-size: 12px;
+    width: 98%;
+  }
+  section#about section.wrapper section.container div.item div.right p {
+    width: 85%;
+    font-size: 14px;
+    margin-bottom: 25px;
+  }
+  section#about section.wrapper section.container div.item div.right h1 {
+    font-size: 38px;
+    margin-bottom: 10px;
+  }
+  section#about section.wrapper section.container div.item.three div.right p {
+    width: 83%;
+    font-size: 14px;
+    margin-bottom: 16px;
+  }
+  #service section.container h1 {
+    font-size: 40px;
+  }
+  #service section.container div.catimg {
+    width: 50px;
+  }
+  #service section.container h6 {
+    width: 68%;
+    font-size: 15px;
+  }
+  #service section.container a.button {
+    padding: 14px 28px;
+    margin-top: 40px;
+  }
+  #testimonials section.container h1 {
+    font-size: 40px;
+  }
+  #testimonials section.container h4 {
+    width: 66%;
+    font-size: 14px;
+  }
+  #testimonials section.container div.box div.right small.r {
+    margin-right: 16px;
+  }
+  #testimonials section.container div.box div.right small {
+    width: 11px;
+  }
+  #testimonials section.container div.box div.right h3 {
+    width: 93%;
+    font-size: 14px;
+  }
+  #testimonials section.container div.box div.right small.l {
+    margin-left: 18px;
+  }
+  #newsletter h1 {
+    font-size: 35px;
+  }
+  #newsletter div.catImg {
+    width: 5%;
+  }
+  #newsletter h4 {
+    width: 69%;
+    font-size: 16px;
+  }
+  #newsletter input[type="text"] {
+    font-size: 14px;
+    height: 45px;
+  }
+  #newsletter input[type="button"] {
+    padding: 12px 22px;
+    font-size: 16px;
+  }
+  #contact {
+    padding: 6%;
+  }
+  #contact h1 {
+    font-size: 40px;
+  }
+  #contact h4 {
+    width: 70%;
+    font-size: 16px;
+  }
+  #contact form input {
+    width: 48%;
+    height: 50px;
+    font-size: 14px;
+  }
+  #contact form textarea {
+    width: 48%;
+    height: 130px;
+    font-size: 13px;
+  }
+  #contact form {
+    height: 190px;
+    width: 85%;
+    margin: 0px auto;
+  }
+  footer section.container div.left h1 {
+    font-size: 20px;
+  }
+  footer section.container div.middle ul li a {
+    font-size: 14px;
+  }
+  footer section.container div.middle ul li {
+    margin-right: 30px;
+  }
+  footer section.container div.right ul li a span {
+    width: 25px;
+  }
+  footer h6 {
+    font-size: 14px;
+  }
+  footer hr {
+    margin: 25px;
+  }
+}
+@media all and (max-width: 980px) {
+  section#home section.wrapper header section.container div.left h1 a {
+    font-size: 18px;
+  }
+  section#home section.wrapper header section.container div.middle ul li a {
+    font-size: 14px;
+  }
+  section#home section.wrapper header section.container div.right ul li a span {
+    display: inline-block;
+    width: 28px;
+  }
+  section#home
+    section.wrapper
+    section.spotlight
+    div.left
+    div.container
+    div.title
+    h2 {
+    font-size: 24px;
+  }
+  section#home
+    section.wrapper
+    section.spotlight
+    div.left
+    div.container
+    div.catimg {
+    width: 40px;
+  }
+  section#home section.wrapper section.spotlight div.left h1 {
+    font-size: 55px;
+  }
+  section#home section.wrapper section.spotlight div.left p {
+    width: 76%;
+    font-size: 12px;
+  }
+  section#home section.wrapper section.spotlight div.left a.button {
+    font-size: 14px;
+    padding: 12px 28px;
+    margin: 12px 0;
+  }
+  section#home section.wrapper section.spotlight div.left div.content ul li h4 {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  section#home section.wrapper section.spotlight div.left div.content ul li h6 {
+    font-size: 8px;
+    width: 83%;
+  }
+  section#about section.wrapper section.container div.item div.right a.button {
+    padding: 10px 18px;
+    font-size: 14px;
+  }
+  section#about section.wrapper section.container div.item div.right p {
+    width: 95%;
+    font-size: 12px;
+  }
+  section#about section.wrapper section.container div.item div.right h1 {
+    font-size: 34px;
+    margin-top: 18px;
+  }
+  section#about
+    section.wrapper
+    section.container
+    div.item
+    div.left
+    div.imgcontainer {
+    display: inline-block;
+    width: 60%;
+    margin-right: 18px;
+  }
+  section#about
+    section.wrapper
+    section.container
+    div.item
+    div.left
+    div.imgtwo
+    img.one {
+    margin-bottom: 12px;
+  }
+  section#about section.wrapper section.container div.item div.left div.imgtwo {
+    display: inline-block;
+    width: 43%;
+  }
+  section#about section.wrapper section.container div.item.three div.right p {
+    width: 85%;
+    font-size: 11px;
+    margin-bottom: 16px;
+  }
+  #service section.container div.boxes ul li h4 {
+  }
+  #service section.container h6 {
+    width: 87%;
+  }
+  #service section.container div.boxes ul li h4 {
+    font-size: 12px;
+  }
+  #service section.container div.boxes ul li p {
+    font-size: 8px;
+  }
+  #service section.container a.button {
+    margin-top: 24px;
+    font-size: 14px;
+  }
+  #partners section.container div.left h1 {
+    font-size: 34px;
+  }
+  #partners section.container div.left h4 {
+    width: 86%;
+    font-size: 12px;
+  }
+  #partners section.container div.left a.button {
+    padding: 14px 28px;
+    font-size: 14px;
+  }
+  #partners section.container div.right div.item.three {
+    width: 82px;
+  }
+  #partners section.container div.right div.item.two {
+    width: 82px;
+  }
+  #partners section.container div.right div.item.one {
+    width: 82px;
+  }
+  #testimonials section.container h4 {
+    width: 84%;
+  }
+  #testimonials section.container div.box div.right h3 {
+    width: 89%;
+    font-size: 10px;
+  }
+  #testimonials
+    section.container
+    div.box
+    div.right
+    div.elisa
+    div.imgcontainer
+    span {
+    width: 12%;
+    margin-right: 8px;
+  }
+  #testimonials
+    section.container
+    div.box
+    div.right
+    div.elisa
+    div.imgcontainer
+    div.text
+    h6 {
+    font-size: 16px;
+  }
+  #testimonials
+    section.container
+    div.box
+    div.right
+    div.elisa
+    div.imgcontainer
+    div.text
+    p {
+    font-size: 10px;
+  }
+  #testimonials section.container div.dotes span.round {
+    width: 8px;
+    height: 8px;
+  }
+  #testimonials section.container div.dotes {
+    padding: 16px;
+  }
+  #newsletter h4 {
+    width: 66%;
+    font-size: 12px;
+  }
+  #contact h4 {
+    width: 78%;
+    font-size: 14px;
+  }
+  footer section.container div.left h1 {
+    font-size: 14px;
+  }
+  footer section.container div.middle ul li a {
+    font-size: 12px;
+  }
+  footer section.container div.right ul li a span {
+    width: 20px;
+  }
+  footer section.container div.right ul li {
+    margin-right: 4px;
+  }
+  footer hr {
+    margin: 16px;
+  }
+  footer h6 {
+    font-size: 12px;
+  }
+}
+@media all and (max-width: 768px) {
+  #home header nav.middle {
+    display: none;
+  }
+  contact form input {
+    width: 49%;
+    height: 42px;
+    font-size: 11px;
+  }
+  #contact form textarea {
+    width: 48%;
+    height: 116px;
+  }
+  #contact form {
+    height: 172px;
+  }
+  #contact form input[type="submit"] {
+    font-size: 12px;
+  }
+  #contact h1 {
+    font-size: 32px;
+  }
+  #contact h4 {
+    width: 74%;
+    font-size: 11px;
+  }
+  #newsletter h1 {
+    font-size: 26px;
+  }
+  #newsletter h4 {
+    font-size: 10px;
+  }
+  #newsletter input[type="text"] {
+    width: 44%;
+  }
+  #newsletter input[type="button"] {
+    padding: 14px 30px;
+    font-size: 12px;
+  }
+  #testimonials section.container div.box div.left {
+    width: 44%;
+  }
+  #testimonials section.container div.box div.right h3 {
+    width: 90%;
+    font-size: 8px;
+    padding: 0;
+  }
+  #testimonials section.container div.box div.right div.elisa {
+    padding: 0;
+  }
+  #testimonials
+    section.container
+    div.box
+    div.right
+    div.elisa
+    div.imgcontainer
+    span {
+    width: 14%;
+    margin-right: 8px;
+  }
+  #testimonials section.container div.box div.left div.elizabath {
+    width: 82%;
+  }
+  #testimonials section.container h1 {
+    font-size: 32px;
+  }
+  #testimonials section.container h4 {
+    width: 87%;
+    font-size: 12px;
+  }
+  #partners section.container div.left h1 {
+    width: 74%;
+  }
+  #partners section.container div.left h4 {
+    width: 86%;
+    font-size: 10px;
+  }
+  #service section.container div.boxes ul li span {
+    width: 30px;
+  }
+  #service section.container div.boxes ul li {
+    width: 24%;
+  }
+  service section.container a.button {
+    font-size: 12px;
+  }
+  #service section.container div.boxes ul li p {
+    font-size: 7px;
+  }
+  #service section.container div.boxes ul li h4 {
+    font-size: 10px;
+  }
+  #service section.container h6 {
+    width: 83%;
+    font-size: 12px;
+  }
+  #service section.container h1 {
+    font-size: 34px;
+    margin-bottom: 10px;
+  }
+  section#about section.wrapper section.container div.item div.right a.button {
+    padding: 10px 18px;
+    font-size: 10px;
+  }
+  section#about section.wrapper section.container div.item.three div.right {
+    padding-left: 14px;
+  }
+  section#about section.wrapper section.container div.item.three div.right p {
+    width: 97%;
+    font-size: 11px;
+    margin-bottom: 8px;
+  }
+  section#about section.wrapper section.container div.item div.right h1 {
+    font-size: 25px;
+  }
+  section#about section.wrapper section.container div.item div.right p {
+    width: 97%;
+    font-size: 10px;
+  }
+  section#home section.wrapper section.spotlight div.left h1 {
+    font-size: 38px;
+  }
+  section#home section.wrapper section.spotlight div.left p {
+    width: 99%;
+    font-size: 12px;
+  }
+  section#home section.wrapper section.spotlight div.left div.content ul li h4 {
+    font-size: 14px;
+  }
+  section#home section.wrapper section.spotlight div.left div.content ul li h6 {
+    font-size: 7px;
+    width: 87%;
+  }
+  section#home section.wrapper header section.container div.left h1 a {
+    font-size: 14px;
+  }
+  section#home section.wrapper header section.container div.middle ul li {
+    margin-right: 22px;
+  }
+  section#home section.wrapper header section.container div.middle ul li a {
+    font-size: 12px;
+  }
+  section#home section.wrapper header section.container div.right ul li a span {
+    display: inline-block;
+    width: 24px;
+  }
+}
+@media all and (max-width: 640px) {
+  section#home section.wrapper header section.container div.left h1 a {
+    font-size: 12px;
+  }
+  section#home section.wrapper header section.container div.middle ul li {
+    margin-right: 14px;
+  }
+  #partners section.container div.right div.item.three {
+    width: 52px;
+  }
+  #partners section.container div.right div.item.two {
+    width: 52px;
+  }
+  #partners section.container div.right div.item.one {
+    width: 52px;
+  }
+  #partners section.container div.left h1 {
+    font-size: 30px;
+    width: 85%;
+  }
+  #partners section.container div.left h4 {
+    width: 80%;
+    font-size: 7px;
+  }
+  #partners section.container div.left a.button {
+    padding: 8px 18px;
+    font-size: 14px;
+  }
+  #partners {
+    padding: 100px 0;
+  }
+  section#home section.wrapper header section.container div.middle ul li a {
+    font-size: 10px;
+  }
+  section#home section.wrapper header section.container div.right ul li a span {
+    display: inline-block;
+    width: 22px;
+  }
+  section#home section.wrapper section.spotlight div.left h1 {
+    font-size: 28px;
+  }
+  section#home section.wrapper section.spotlight div.left p {
+    width: 99%;
+    font-size: 9px;
+    line-height: 1rem;
+  }
+  section#home section.wrapper section.spotlight div.left a.button {
+    font-size: 8px;
+  }
+  section#home section.wrapper section.spotlight div.left div.content ul li h6 {
+    font-size: 7px;
+    width: 88%;
+  }
+  section#about section.wrapper section.container div.item div.right a.button {
+    padding: 10px 18px px;
+    font-size: 7px;
+  }
+  section#about section.wrapper section.container div.item div.right p {
+    margin-bottom: 8px;
+  }
+  section#about section.wrapper section.container div.item div.right h1 {
+    font-size: 19px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  section#about section.wrapper section.container div.item div.right p {
+    width: 100%;
+    font-size: 8px;
+  }
+  section#about section.wrapper section.container div.item.three div.right p {
+    width: 97%;
+    font-size: 8px;
+  }
+  #service section.container div.catimg {
+    width: 40px;
+  }
+  #service section.container h1 {
+    font-size: 32px;
+  }
+  #service section.container h6 {
+    width: 91%;
+    font-size: 11px;
+  }
+  #service section.container div.boxes ul li h4 {
+    font-size: 9px;
+  }
+  #service section.container a.button {
+    padding: 12px 16px;
+    margin-top: 14px;
+    font-size: 10px;
+  }
+  #testimonials section.container h4 {
+    width: 98%;
+    font-size: 10px;
+  }
+  #testimonials section.container div.box div.right h3 {
+    width: 100%;
+    font-size: 8px;
+    margin-bottom: 2px;
+  }
+  #newsletter h4 {
+    width: 88%;
+  }
+  #contact h4 {
+    width: 98%;
+  }
+  #contact form input {
+    height: 40px;
+    font-size: 12px;
+  }
+  #contact form textarea {
+    height: 94px;
+  }
+  #contact form {
+    height: 140px;
+  }
+  footer section.container div.left h1 {
+    font-size: 10px;
+  }
+  footer section.container div.middle ul li a {
+    font-size: 9px;
+  }
+  footer section.container div.middle ul li {
+    margin-right: 14px;
+  }
+  footer section.container div.right ul li a span {
+    width: 14px;
+  }
+}
+@media all and (max-width: 480px) {
+  section#home section.wrapper header section.container div.middle ul li {
+    margin-right: 8px;
+  }
+  section#home section.wrapper header section.container div.right ul li a span {
+    width: 28px;
+  }
+  section#home section.wrapper header section.container div.left h1 a {
+    font-size: 18px;
+  }
+  section#home section.wrapper section.spotlight div.left h1 {
+    font-size: 22px;
+  }
+  section#home
+    section.wrapper
+    section.spotlight
+    div.left
+    div.container
+    div.catimg {
+    width: 32px;
+  }
+  section#home section.wrapper header section.container div.middle {
+    display: none;
+  }
+  section#home section.wrapper section.spotlight div.left {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  section#home section.wrapper section.spotlight div.right {
+    width: 100%;
+  }
+  section#home section.wrapper section.spotlight {
+    flex-wrap: wrap;
+  }
+  section#home section.wrapper section.spotlight div.left h1 {
+    font-size: 32px;
+    width: 69%;
+  }
+  section#home section.wrapper section.spotlight div.left p {
+    width: 100%;
+    font-size: 13px;
+  }
+  section#home section.wrapper section.spotlight div.left a.button {
+    font-size: 12px;
+    border-radius: 4px;
+    margin: 20px 0;
+    padding: 12px 12px;
+  }
+  section#home section.wrapper section.spotlight div.left div.content ul li h4 {
+    font-size: 18px;
+  }
+  section#home section.wrapper section.spotlight div.left div.content ul li h6 {
+    font-size: 11px;
+    width: 95%;
+  }
+  section#home section.wrapper section.spotlight div.right div.sportlightimg {
+    display: block;
+    width: 55%;
+    margin: 0 auto;
+  }
+  section#about section.wrapper section.container div.item {
+    flex-wrap: wrap;
+  }
+  section#about section.wrapper section.container div.item div.left {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  section#about section.wrapper section.container div.item div.right {
+    width: 100%;
+  }
+  section#about section.wrapper section.container div.item div.right h1 {
+    font-size: 32px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+  section#about section.wrapper section.container div.item div.right p {
+    width: 100%;
+    font-size: 13px;
+  }
+  section#about section.wrapper section.container div.item div.right a.button {
+    padding: 12px 8px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-top: 5px;
+  }
+  section#about section.wrapper section.container div.item.three div.right p {
+    width: 100%;
+    font-size: 12px;
+  }
+  section#about section.wrapper section.container div.item {
+    padding: 30px 0;
+  }
+  #service section.container div.boxes ul {
+    flex-wrap: wrap;
+  }
+  #service section.container div.boxes ul li {
+    width: 48%;
+    margin-bottom: 14px;
+  }
+  #service section.container div.boxes ul li span {
+    width: 50px;
+    margin-bottom: 5px;
+  }
+  #service section.container div.boxes ul li h4 {
+    font-size: 15px;
+  }
+  #service section.container div.boxes ul li p {
+    font-size: 10px;
+  }
+  #service section.container a.button {
+    font-size: 14px;
+    border-radius: 4px;
+  }
+  #partners section.container {
+    flex-wrap: wrap;
+  }
+  #partners section.container div.left {
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  #partners section.container div.right {
+    width: 100%;
+  }
+  #partners section.container div.left h1 {
+    font-size: 38px;
+    width: 100%;
+  }
+  #partners {
+    padding: 60px 0;
+  }
+  #partners section.container div.left h4 {
+    width: 98%;
+    font-size: 14px;
+  }
+  #partners section.container div.left a.button {
+    padding: 11px 18px;
+    font-size: 14px;
+    border-radius: 4px;
+  }
+  #partners section.container div.right div.item.one {
+    width: 90px;
+  }
+  #partners section.container div.right div.item.two {
+    width: 90px;
+  }
+  #partners section.container div.right div.item.three {
+    width: 80px;
+  }
+  #testimonials section.container div.box {
+    flex-wrap: wrap;
+  }
+  #testimonials section.container div.box div.left {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  #testimonials section.container div.box div.right {
+    width: 100%;
+  }
+  #testimonials section.container div.box div.left div.elizabath {
+    width: 90%;
+    margin: 0 auto;
+  }
+  #testimonials section.container div.box div.right h3 {
+    width: 100%;
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+  #testimonials
+    section.container
+    div.box
+    div.right
+    div.elisa
+    div.imgcontainer
+    span {
+    width: 16%;
+    margin-right: 8px;
+  }
+  #newsletter div.catImg {
+    width: 12%;
+  }
+  #newsletter h1 {
+    font-size: 20px;
+  }
+  #newsletter h4 {
+    font-size: 12px;
+    width: 94%;
+  }
+  #contact h4 {
+    padding-bottom: 30px;
+  }
+  #contact form {
+    height: 142px;
+    width: 100%;
+  }
+  footer section.container div.middle {
+    display: none;
+  }
+  footer section.container div.left h1 {
+    font-size: 16px;
+  }
+  footer section.container div.right ul li a span {
+    width: 20px;
+  }
+  footer hr {
+    margin: 10px;
+  }
+  #newsletter input[type="text"] {
+    font-size: 12px;
+  }
+}
+@media all and (max-width: 360px) {
+  #partners section.container div.right div.item.one {
+    width: 70px;
+  }
+  #partners section.container div.right div.item.two {
+    width: 70px;
+    margin: 30px auto;
+  }
+  #partners section.container div.right div.item.three {
+    width: 70px;
+  }
+  section#home section.wrapper section.spotlight div.left h1 {
+    font-size: 32px;
+    width: 77%;
+  }
+  section#home section.wrapper section.spotlight div.left p {
+    width: 100%;
+    font-size: 13px;
+    line-height: 18px;
+  }
+  section#home section.wrapper section.spotlight div.left div.content ul {
+    flex-wrap: wrap;
+  }
+  section#home section.wrapper section.spotlight div.left div.content ul li {
+    margin-bottom: 10px;
+  }
+  section#home section.wrapper section.spotlight div.left div.content ul li h4 {
+    font-size: 20px;
+  }
+  section#home section.wrapper section.spotlight div.left div.content ul li h6 {
+    font-size: 14px;
+    width: 100%;
+  }
+  #service section.container h6 {
+    width: 100%;
+    font-size: 12px;
+  }
+  #service section.container div.boxes ul li {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  #service section.container div.boxes ul li h4 {
+    font-size: 22px;
+  }
+  #service section.container div.boxes ul li p {
+    font-size: 14px;
+    width: 77%;
+    margin: 0 auto;
+  }
+  #partners section.container div.left h1 {
+    width: 100%;
+  }
+  #partners section.container div.left h4 {
+    width: 100%;
+    font-size: 15px;
+  }
+  #testimonials section.container h4 {
+    width: 100%;
+    font-size: 12px;
+  }
+  #testimonials section.container h1 {
+    font-size: 36px;
+  }
+  #newsletter h4 {
+    font-size: 13px;
+    width: 100%;
+  }
+}
