@@ -946,6 +946,7 @@ footer h6 {
     width: 77%;
   }
 }
+
 @media all and (max-width: 1280px) {
   #contact h4 {
     width: 94%;
@@ -1076,6 +1077,7 @@ footer h6 {
     width: 38px;
   }
 }
+
 @media all and (max-width: 1050px) {
   section#home section.wrapper section.spotlight div.left p {
     width: 86%;
@@ -1194,6 +1196,7 @@ footer h6 {
     margin: 25px;
   }
 }
+
 @media all and (max-width: 980px) {
   section#home section.wrapper header section.container div.left h1 a {
     font-size: 18px;
