@@ -267,6 +267,8 @@ br.clear {
   width: 100%;
   display: block;
 }
+/* home end */
+
 section#about section.wrapper section.container div.item {
   display: flex;
   justify-content: space-between;
