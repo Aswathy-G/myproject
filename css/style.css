@@ -523,6 +523,7 @@ section#about section.wrapper section.container div.item.three div.right p {
   width: 100%;
   box-shadow: 7px 11px 10px -5px rgba(0, 0, 0, 0.15);
 }
+/* partners section end */
 #testimonials section.container {
   padding: 11px;
 }
@@ -692,6 +693,7 @@ section#about section.wrapper section.container div.item.three div.right p {
 #testimonials section.container div.dotes span.round:hover {
   background: #569fa8;
 }
+/* testimonials end */
 
 #newsletter {
   background-color: #fafafa;
